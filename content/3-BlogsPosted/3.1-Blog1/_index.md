@@ -1,6 +1,6 @@
 ---
 title: "Blog 1 - Building Secure Authentication with Amazon Cognito"
-date: 2024-01-01
+date: 2026-07-05
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
@@ -8,6 +8,8 @@ pre: " <b> 3.1. </b> "
 
 # BUILDING SECURE AUTHENTICATION WITH AMAZON COGNITO FOR A REACT AND NESTJS APPLICATION
 ## Cloud Authentication Architecture for Full-Stack Applications
+
+![Amazon Cognito & React](/images/3-Blogs/blog-1.jpg)
 
 ### 1. Introduction
 In modern web application design, identity management and user authentication are critical components that carry significant security implications.
@@ -88,3 +90,13 @@ By proxying all authentication requests through the NestJS backend, **Startups B
 - Keeps `COGNITO_CLIENT_SECRET` isolated on the server.
 - Prevents token exposure to XSS via HttpOnly Signed Cookies.
 - Ensures consistency between cloud identity and PostgreSQL application data.
+
+---
+
+### 💬 Discussion
+
+Where do you usually store your tokens when handling Auth—in `localStorage` or `Cookies`? Let's discuss and share your thoughts on my Facebook post!
+
+👉 **[Join the discussion on the Facebook post here](https://www.facebook.com/groups/awsstudygroupfcj/posts/2242620649836228/)**
+
+*#AWS #AmazonCognito #ReactJS #NestJS #WebSecurity #SoftwareArchitecture #Fullstack #DevOps #FrontendDev #WebDevelopment*

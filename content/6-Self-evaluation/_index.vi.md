@@ -1,6 +1,6 @@
 ---
 title: "Tự đánh giá"
-date: 2024-01-01
+date: 2026-08-12
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
@@ -17,18 +17,18 @@ Về tác phong làm việc, em luôn cố gắng hoàn thành tốt các mục 
 
 | STT | Tiêu chí | Mô tả | Tốt | Khá | Trung bình |
 | --- | --- | --- | --- | --- | --- |
-| 1 | **Kiến thức và kỹ năng chuyên môn** | Nắm vững kiến thức Full-Stack (React 19 + NestJS), tích hợp dịch vụ đám mây Amazon Cognito, Prisma ORM | ✅ | ☐ | ☐ |
-| 2 | **Khả năng học hỏi** | Tiếp thu nhanh các công nghệ mới, chủ động nghiên cứu tài liệu AWS SDK và REST API | ✅ | ☐ | ☐ |
-| 3 | **Chủ động** | Tự nghiên cứu tài liệu, giải quyết vấn đề kỹ thuật và hoàn thành nhiệm vụ đúng tiến độ | ✅ | ☐ | ☐ |
-| 4 | **Tinh thần trách nhiệm** | Đảm bảo chất lượng mã nguồn, hoàn thành báo cáo Worklog 8 tuần đúng thời hạn | ✅ | ☐ | ☐ |
-| 5 | **Kỷ luật** | Tuân thủ nghiêm túc giờ giấc, quy định bảo mật thông tin và quy trình làm việc của dự án | ✅ | ☐ | ☐ |
-| 6 | **Tính cầu tiến** | Sẵn sàng tiếp thu ý kiến đóng góp từ Mentor để cải thiện chất lượng sản phẩm | ✅ | ☐ | ☐ |
-| 7 | **Giao tiếp** | Trình bày ý tưởng kỹ thuật, báo cáo công việc rõ ràng trong các buổi làm việc | ☐ | ✅ | ☐ |
-| 8 | **Hợp tác nhóm** | Làm việc hiệu quả với các thành viên trong nhóm, tương tác tích cực với mentor | ✅ | ☐ | ☐ |
-| 9 | **Ứng xử chuyên nghiệp** | Tôn trọng quy định, môi trường làm việc và văn hóa doanh nghiệp | ✅ | ☐ | ☐ |
-| 10 | **Tư duy giải quyết vấn đề** | Phân tích root cause, áp dụng các giải pháp bảo mật như SecretHash HMAC-SHA256 & HttpOnly Cookie | ✅ | ☐ | ☐ |
-| 11 | **Đóng góp vào dự án/tổ chức** | Xây dựng thành công báo cáo thực tập và tích hợp giải pháp xác thực Cognito cho Startups Blogs | ✅ | ☐ | ☐ |
-| 12 | **Tổng thể** | Đánh giá chung về toàn bộ quá trình thực tập 8 tuần | ✅ | ☐ | ☐ |
+| 1 | **Kiến thức và kỹ năng chuyên môn** | Vận dụng tốt lý thuyết vào việc xây dựng tính năng thực tế với React, NestJS và dịch vụ AWS. | ☐ | ✅ | ☐ |
+| 2 | **Khả năng học hỏi** | Nắm bắt nhanh chóng và triển khai thành công các khái niệm xác thực đám mây dù ban đầu còn bỡ ngỡ. | ✅ | ☐ | ☐ |
+| 3 | **Chủ động** | Thường xuyên tự tìm tòi giải pháp kỹ thuật độc lập trước khi nhờ sự hỗ trợ từ các mentor. | ✅ | ☐ | ☐ |
+| 4 | **Tinh thần trách nhiệm** | Luôn đảm bảo hoàn thành các module được giao đúng hạn với mã nguồn gọn gàng, có tài liệu rõ ràng. | ✅ | ☐ | ☐ |
+| 5 | **Kỷ luật** | Tuân thủ nghiêm ngặt quy định viết code, quy trình commit và lịch họp giao ban hàng ngày của nhóm. | ✅ | ☐ | ☐ |
+| 6 | **Tính cầu tiến** | Cởi mở đón nhận các góp ý trong lúc review code và nhanh chóng điều chỉnh theo các pattern tối ưu hơn. | ✅ | ☐ | ☐ |
+| 7 | **Giao tiếp** | Vẫn đang rèn luyện khả năng diễn đạt lưu loát các logic backend phức tạp trong những buổi họp nhóm. | ☐ | ✅ | ☐ |
+| 8 | **Hợp tác nhóm** | Phối hợp tốt trên Git nhưng đôi lúc còn gặp khó khăn trong việc bắt nhịp tiến độ với nhóm Frontend. | ☐ | ✅ | ☐ |
+| 9 | **Ứng xử chuyên nghiệp** | Luôn giữ thái độ hòa nhã, tôn trọng trong công việc, tuy nhiên đôi khi còn khá rụt rè khi nêu ý kiến. | ☐ | ✅ | ☐ |
+| 10 | **Tư duy giải quyết vấn đề** | Xử lý thành công các lỗi về CORS và token Cognito, nhưng thỉnh thoảng vẫn cần gợi ý cho các bug khó. | ☐ | ✅ | ☐ |
+| 11 | **Đóng góp vào dự án/tổ chức** | Hoàn thiện luồng xác thực cốt lõi, tạo nền tảng vững chắc cho hệ thống phân quyền của dự án. | ✅ | ☐ | ☐ |
+| 12 | **Tổng thể** | Trải qua kỳ thực tập với sự phát triển mạnh mẽ về kỹ thuật, nhưng kỹ năng mềm và giao tiếp cần trau chuốt thêm. | ☐ | ✅ | ☐ |
 
 ### Định hướng tiếp tục hoàn thiện & cải thiện bản thân
 

@@ -1,105 +1,74 @@
 ---
-title: "Event 1 - Cloud Architect"
-date: 2024-01-01
+title: "Event 1 - FCAJ Community Day"
+date: 2026-06-01
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Event 1 - Cloud Architect
 
 ## Event Overview
 
-**Cloud Architect** was a community activity organized under the **AWS First Cloud AI Journey (FCAJ)** program, designed as an interactive competitive game centered on Cloud Computing and AWS Cloud Architecture design. The event aimed to foster an engaging learning environment, enhance teamwork, and promote practical knowledge sharing among interns.
-
-In each match, two teams competed directly against each other by answering a series of questions structured from beginner to advanced difficulty levels. The team accumulating the higher total score advanced to the next round. In the event of a tied score at the end of a match, a tie-breaking question was introduced, where the team submitting the faster correct answer won the match.
-
-The competition questions focused on core technical areas:
-- Cloud Computing fundamentals.
-- Amazon Web Services (AWS) core products and solution patterns.
-- Cloud Architecture principles.
-- Architecture design decision-making.
-- Pillars of Security, Reliability, Scalability, and Cost considerations.
-
----
-
-## Participation Format and Game Mechanics
-
-The competition was structured for:
-- **8 teams**
-- **5 members per team**
-
-Team members were not required to belong to the same internship project team, encouraging cross-team collaboration and networking among interns.
-
-### Special Game Mechanics:
-
-The competition incorporated two strategic skill mechanics allowing teams to evaluate decision risks:
-
-#### 1. Minimum Risk
-- Each team was permitted to activate this ability **once** per match.
-- Intended for questions where the team felt uncertain about their answer.
-- **If incorrect:** **No points were deducted**.
-- **If correct:** The team was awarded **50% of the question's base points**.
-
-#### 2. Hope Star
-- Each team was permitted to activate this ability **once** per match.
-- Intended for questions where the team felt highly confident in their answer.
-- **If correct:** Awarded **double the question's base points**.
-- **If incorrect:** **Deducted double the corresponding points**.
-
----
-
-## AWS Certification Sharing Session
-
-In addition to the **Cloud Architect** competition, the event featured a practical sharing session focused on AWS certification preparation strategies.
-
-Through discussions led by experienced mentors and community members, I learned:
-- Systematic approaches to structuring study roadmaps for AWS certifications.
-- Exam preparation techniques, time allocation, and architectural multiple-choice strategies.
-- Emphasizing service mechanics and data flows over rote memorization of question dumps.
-- Combining hands-on practice labs to reinforce theoretical knowledge.
-- Real-world insights and lessons learned from members who completed AWS certifications.
+The **FCAJ Community Day (June 2026)** was organized by the **AWS Study Group / FCAJ Community**. This event was dedicated to exploring the latest shifts in the tech industry, focusing heavily on career trends in Cloud and AI Engineering, AI-driven FinOps and Cloud Security, and the architecture of enterprise AI solutions like Amazon Q Business and Model Context Protocol (MCP) Server.
 
 ---
 
 ## Event Objectives
 
-- Review and consolidate foundational knowledge of AWS and Cloud Computing.
-- Enhance analytical thinking in cloud architecture design.
-- Practice analyzing complex architecture scenarios under strict time limits.
-- Develop teamwork, discussion, and consensus-building skills during decision-making.
-- Gain practical preparation strategies for future AWS certification exams.
+My primary objectives for attending this community day were:
+- To understand how the rapid adoption of AI agents and coding assistants impacts the future of software engineering roles.
+- To discover practical applications of AI in specialized fields like FinOps and Cloud Security.
+- To learn the infrastructure architectural requirements and cost considerations for deploying enterprise-grade private AI solutions.
+- To network with industry professionals and align my internship learning path with current market demands.
+
+---
+
+## Main Content
+
+The presentations and discussions centered around three major themes:
+
+### 1. Career Trends in the Agentic AI Era
+The tech industry is seeing rapid AI adoption, with AI agents and coding assistants significantly improving development productivity. Consequently, companies are raising recruitment standards, placing greater emphasis on candidates who can effectively leverage AI tools. As cloud systems grow, managing infrastructure becomes increasingly complex, and AI alone cannot fully understand the complete context of source code, cloud infrastructure, and business logic within large enterprise systems.
+
+### 2. AI Applications in FinOps and Cloud Security
+- **FinOps:** Finance teams often lack technical cloud knowledge, while cloud engineers may overlook financial cost management. AI bridges this gap by analyzing AWS billing data, detecting abnormal spending patterns, and recommending cost optimization strategies.
+- **Cloud Security:** Security issues are sometimes overlooked or discovered too late. AI Agents can automate security assessments, review Infrastructure as Code (IaC) configurations, support penetration testing, and continuously analyze system logs to identify potential threats.
+
+### 3. Cost Considerations for Private AI Infrastructure
+When deploying enterprise AI solutions (such as Amazon Q Business or an MCP Server) inside a private AWS Virtual Private Cloud (VPC), organizations must consider the infrastructure costs to maintain a secure environment. Example monthly costs include:
+- **Route 53 Resolver:** ~$180 (DNS resolution for private endpoints)
+- **Application Load Balancer (ALB):** ~$32 (Routing requests to internal services)
+- **EC2 instances:** Depends on instance type (Hosting MCP Server)
+- **AWS Secrets Manager & Data Transfer:** Usage-based
+Overall, the estimated fixed infrastructure cost is approximately USD 250–350 per month, excluding actual AI model usage and data processing costs.
 
 ---
 
 ## Knowledge Gained
 
-- **Architectural Trade-off Analysis:** Cloud architecture evaluation requires trade-off analysis across security, performance, and cost rather than isolating a single service.
-- **Balancing Architectural Pillars:** Well-designed architectures must balance Security, Availability, Scalability, Reliability, and Cost.
-- **Multi-perspective Team Discussions:** Collaborative team discussions expose different analytical approaches to resolving the same architectural challenge.
-- **Theory Combined with Practice:** The most effective AWS certification preparation combines official AWS documentation with hands-on practice labs.
-- **Time Management and Decision Making:** Risk evaluation and rapid decision-making under time constraints are essential system design skills.
+By actively participating in the sessions, I took away several critical insights:
+- **AI as a Collaborator, Not a Replacement:** Roles such as Cloud Engineer, DevOps, and Solution Architect remain essential because they require practical experience, architectural decision-making, and business understanding. Rather than viewing AI as a replacement, we should learn how to use it to automate repetitive tasks.
+- **Hidden Infrastructure Costs:** Many AI projects focus only on LLM API pricing while overlooking the cost of supporting infrastructure (VPC networking, Load Balancers, Secrets Manager). 
+- **Capacity Planning is Crucial:** Infrastructure costs must be estimated based on the expected number of users and projected monthly data transfer before deploying any AI solution into production.
 
 ---
 
 ## Application to Startups Blogs
 
-Lessons learned from the Cloud Architect event directly informed the development of the **Startups Blogs** internship project:
-
-- **Holistic System Thinking:** Approaching the application's AWS infrastructure as an interconnected system (API Gateway, EC2, RDS, Cognito, CloudFront, S3) rather than isolated services.
-- **Defining Security Boundaries:** Clarifying authentication and authorization boundaries across user roles (`BUSINESS_OWNER`, `INVESTOR`, `ENTERPRISE_PARTNER`, `ADMIN`) using Amazon Cognito.
-- **Balancing Performance and Cost:** Applying trade-off principles when hosting NestJS backend services on EC2 with RDS PostgreSQL in private subnets and S3 CDN static hosting.
-- **Structured AWS Service Evaluation:** Systematically evaluating cloud infrastructure solutions prior to project integration.
+The insights from the FCAJ Community Day directly influence how I approach the infrastructure of the **Startups Blogs** project:
+- **Proactive Cost Management (FinOps mindset):** I will pay closer attention to the AWS billing dashboard and optimize resource usage for the Startups Blogs environment, ensuring our architecture is not just functional but also cost-effective.
+- **Security First:** Applying AI concepts to our security practices, such as rigorously reviewing our IaC configurations and IAM roles to prevent vulnerabilities from reaching our production deployment.
+- **Future-proofing Architecture:** Understanding the underlying infrastructure needed for private AI (VPCs, ALB, Route 53) prepares me for future scenarios where we might need to integrate AI agents securely into the Startups Blogs platform.
 
 ---
 
 ## Photos
 
-![Figure 1. Cloud Architect event overview.](/images/events/cloud-architect-event-01.jpg)
-*Figure 1. Cloud Architect event overview.*
+![FCAJ Community Day](/images/events/event3.jpeg)
+<p align="center"><em>Figure 1. Group photo at the FCAJ Community Day - June 2026 event.</em></p>
 
 ---
 
 ## Conclusion
 
-The **Cloud Architect** event offered an exceptional learning experience, reinforcing AWS cloud architecture concepts, teamwork skills, and practical AWS certification study strategies. The principles of architectural trade-off analysis and system balancing significantly supported my work in designing and refining the Startups Blogs internship project.
+Attending the **FCAJ Community Day** was a highly rewarding experience that broadened my perspective on the intersection of Cloud Computing and AI. It reinforced the reality that while AI tools are transforming how we write code, the core engineering skills—system design, security, and operational reliability—are more important than ever. The lessons on FinOps and infrastructure cost planning provided a practical reality check that will undoubtedly benefit my decision-making process in the Startups Blogs project and my future career as a Cloud Engineer.

@@ -1,6 +1,6 @@
 ---
 title: "Blog 1 - Building Secure Authentication with Amazon Cognito"
-date: 2024-01-01
+date: 2026-07-05
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
@@ -8,6 +8,11 @@ pre: " <b> 3.1. </b> "
 
 # BUILDING SECURE AUTHENTICATION WITH AMAZON COGNITO FOR A REACT AND NESTJS APPLICATION
 ## Thách thức & Giải pháp Xây dựng Hệ thống Xác thực Đám mây Bảo mật cho Ứng dụng Full-Stack
+
+![Amazon Cognito & React](/images/3-Blogs/blog-1.jpg)
+<p align="center"><i>Hình: Amazon Cognito & React</i></p>
+
+
 
 ### 1. Giới thiệu bài viết
 Trong thiết kế ứng dụng web hiện đại, quản lý danh tính (Identity Management) và xác thực người dùng là một trong những thành phần quan trọng nhất nhưng cũng tiềm ẩn nhiều rủi ro an ninh mạng.
@@ -89,4 +94,14 @@ Bằng cách định tuyến tất cả request xác thực qua NestJS Backend, 
 - Ngăn chặn triệt để nguy cơ lộ token qua tấn công XSS nhờ HttpOnly Signed Cookies.
 - Đảm bảo sự đồng bộ nhất quán giữa danh tính đám mây Cognito và cơ sở dữ liệu ứng dụng PostgreSQL.
 
-Trong bài viết tiếp theo (Blog 2), chúng ta sẽ đi sâu vào kỹ thuật tính toán **SecretHash HMAC-SHA256** và cơ chế thẩm định chữ ký RSA của JWT bằng **`aws-jwt-verify`**.
+Trong bài viết tiếp theo (Blog 2), em sẽ đi sâu vào kỹ thuật tính toán **SecretHash HMAC-SHA256** và cơ chế thẩm định chữ ký RSA của JWT bằng **`aws-jwt-verify`**.
+
+---
+
+### 💬 Thảo luận
+
+Mọi người thường xử lý Auth lưu token ở `localStorage` hay `Cookies`? Cùng thảo luận và chia sẻ ý kiến với em dưới phần bình luận nhé!
+
+👉 **[Tham gia thảo luận trên bài đăng Facebook tại đây](https://www.facebook.com/groups/awsstudygroupfcj/posts/2242620649836228/)**
+
+*#AWS #AmazonCognito #ReactJS #NestJS #WebSecurity #SoftwareArchitecture #Fullstack #DevOps #FrontendDev #WebDevelopment*

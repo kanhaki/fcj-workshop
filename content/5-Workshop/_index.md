@@ -1,6 +1,6 @@
 ---
 title: "Workshop"
-date: 2024-01-01
+date: 2026-08-01
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
@@ -26,8 +26,9 @@ The system combines a full-stack architecture comprising **React 19 (TypeScript,
 
 1. [Workshop Overview & AWS Enterprise Architecture](5.1-Workshop-overview/)
 2. [Environment Setup, Terraform & PostgreSQL Preparation](5.2-Prerequiste/)
-3. [Configuring Amazon Cognito User Pool & Confidential App Client](5.3-Cognito-setup/)
-4. [NestJS Backend Integration, REST APIs & HttpOnly Cookie Session](5.4-Backend-integration/)
-5. [React 19 Frontend Integration, Zustand State & Admin Dashboard](5.5-Frontend-integration/)
-6. [Automating Infrastructure with Terraform & CloudWatch Monitoring](5.6-Security-review/)
-7. [Resource Cleanup & Workshop Summary](5.7-Cleanup/)
+3. [AWS Infrastructure Setup — VPC, RDS, EC2, S3, CloudFront & API Gateway](5.3-AWS-Infrastructure/)
+4. [Configuring Amazon Cognito User Pool & Confidential App Client](5.4-Cognito-setup/)
+5. [NestJS Backend Integration, REST APIs & HttpOnly Cookie Session](5.5-Backend-integration/)
+6. [React 19 Frontend Integration, Zustand State & Admin Dashboard](5.6-Frontend-integration/)
+7. [Automating Infrastructure with Terraform & CloudWatch Monitoring](5.7-Security-review/)
+8. [Resource Cleanup & Workshop Summary](5.8-Cleanup/)

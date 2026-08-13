@@ -1,6 +1,6 @@
 ---
 title: "Blog 3 - Managing Cognito Sessions with HttpOnly Cookies and RBAC"
-date: 2024-01-01
+date: 2026-07-25
 weight: 3
 chapter: false
 pre: " <b> 3.3. </b> "
@@ -8,6 +8,11 @@ pre: " <b> 3.3. </b> "
 
 # MANAGING AMAZON COGNITO SESSIONS WITH HTTPONLY COOKIES, REFRESH TOKENS, AND ROLE-BASED ACCESS CONTROL
 ## Giải pháp Quản lý Phiên Đăng nhập An toàn và Phân quyền Người dùng Cấp Doanh nghiệp (`us-east-1`)
+
+![Session Management & RBAC](/images/3-Blogs/blog-3.jpg)
+<p align="center"><i>Hình: Session Management & RBAC</i></p>
+
+
 
 ### 1. Giới thiệu bài viết
 Sau khi xác thực thành công credentials của người dùng với **Amazon Cognito**, vấn đề tiếp theo là: *Làm thế nào để duy trì và quản lý phiên đăng nhập (Session Management) một cách an toàn nhất?*
@@ -108,3 +113,13 @@ Tuyến đường `/raise-capital` hiển thị Wizard 8 bước lập hồ sơ 
 
 ### 5. Kết luận
 Giải pháp quản lý phiên bằng **HttpOnly Signed Cookies** kết hợp luồng **Refresh Token** của Amazon Cognito (`us-east-1`) và hệ thống phân quyền **RBAC PostgreSQL** giúp **Startups Blogs** đạt được sự cân bằng hoàn hảo giữa **Trải nghiệm Người dùng (UX)** và **Bảo mật Cấp Doanh nghiệp (Enterprise Security)**.
+
+---
+
+### 💬 Thảo luận
+
+Mọi người thường xử lý logic tự động gọi Refresh Token ngầm ở phía frontend như thế nào để tối ưu UX nhất mà không làm gián đoạn API đang gọi dở? Cùng thảo luận kỹ thuật ở dưới phần bình luận nhé.
+
+👉 **[Tham gia thảo luận trên bài đăng Facebook tại đây](https://www.facebook.com/groups/awsstudygroupfcj/posts/2243690619729231/)**
+
+*#AWS #AmazonCognito #ReactJS #NestJS #WebSecurity #SessionManagement #RBAC #FrontendDev #WebDevelopment*

@@ -1,6 +1,6 @@
 ---
 title: "Blog 2 - Securing Cognito Auth with SecretHash and JWT Verification"
-date: 2024-01-01
+date: 2026-07-15
 weight: 2
 chapter: false
 pre: " <b> 3.2. </b> "
@@ -8,6 +8,8 @@ pre: " <b> 3.2. </b> "
 
 # SECURING AMAZON COGNITO AUTHENTICATION WITH SECRETHASH AND JWT VERIFICATION IN NESTJS
 ## Securing Backend Infrastructure with SecretHash HMAC-SHA256 and RSA JWT Signature Verification (`us-east-1`)
+
+![Securing Cognito Auth](/images/3-Blogs/blog-2.jpg)
 
 ### 1. Introduction
 When using **Amazon Cognito Confidential App Clients** in enterprise applications, securing communications between the backend server and Cognito User Pools requires strict cryptographic validation.
@@ -120,3 +122,13 @@ Combining **SecretHash (HMAC-SHA256)** for outbound SDK requests and **`aws-jwt-
 - Client secret remains protected.
 - Prevents JWT token tampering.
 - Secures restricted endpoints such as capital raising operations.
+
+---
+
+### 💬 Discussion
+
+Which library do you usually use to verify JWT Tokens in your real-world projects? Let's discuss and share your thoughts on my Facebook post!
+
+👉 **[Join the discussion on the Facebook post here](https://www.facebook.com/groups/awsstudygroupfcj/posts/2242621059836187/)**
+
+*#AWS #AmazonCognito #NestJS #ReactJS #WebSecurity #JWT #HMAC #SoftwareArchitecture #BackendDevelopment #CyberSecurity*

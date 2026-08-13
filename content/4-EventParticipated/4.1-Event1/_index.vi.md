@@ -1,105 +1,75 @@
 ---
-title: "Event 1 - Cloud Architect"
-date: 2024-01-01
+title: "Event 1 - FCAJ Community Day"
+date: 2026-06-01
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Event 1 - Cloud Architect
-
 ## Tổng quan sự kiện
 
-**Cloud Architect** là một hoạt động sinh hoạt cộng đồng thuộc chương trình **AWS First Cloud AI Journey (FCAJ)**, được thiết kế dưới dạng trò chơi thi đấu kiến thức đồng đội về Điện toán đám mây và Thiết kế Kiến trúc Đám mây AWS. Sự kiện được tổ chức nhằm tạo ra một môi trường học tập tương tác, nâng cao tinh thần làm việc nhóm và chia sẻ tri thức thực tế giữa các sinh viên thực tập.
-
-Trong mỗi trận đấu, hai đội thi sẽ trực tiếp đối kháng với nhau thông qua việc trả lời chuỗi câu hỏi được sắp xếp theo cấp độ từ dễ đến khó. Đội giành được tổng số điểm cao hơn sau các lượt hỏi sẽ giành chiến thắng để tiến vào vòng tiếp theo. Trong trường hợp hai đội bằng điểm khi kết thúc lượt thi, một câu hỏi phụ (tie-breaking question) sẽ được sử dụng; đội nào đưa ra đáp án chính xác nhanh nhất sẽ là đội giành chiến thắng chung cuộc.
-
-Nội dung câu hỏi trong cuộc thi tập trung vào các chủ đề cốt lõi:
-- Kiến thức nền tảng về Điện toán đám mây (Cloud Computing fundamentals).
-- Các dịch vụ và giải pháp trên Amazon Web Services (AWS).
-- Nguyên lý thiết kế kiến trúc đám mây (Cloud Architecture).
-- Ra quyết định thiết kế kiến trúc hệ thống (Architecture design decisions).
-- Các trụ cột về Bảo mật (Security), Độ tin cậy (Reliability), Khả năng mở rộng (Scalability) và Tối ưu chi phí (Cost considerations).
+Sự kiện **FCAJ Community Day (Tháng 6/2026)** được tổ chức bởi **AWS Study Group / Cộng đồng FCAJ**. Đây là buổi sinh hoạt tập trung vào việc cập nhật các xu hướng mới nhất trong ngành công nghệ, đặc biệt nhấn mạnh vào xu hướng nghề nghiệp trong lĩnh vực Kỹ sư Đám mây và Trí tuệ Nhân tạo (AI), ứng dụng AI trong FinOps và Bảo mật Đám mây, cũng như kiến trúc của các giải pháp AI doanh nghiệp như Amazon Q Business và Model Context Protocol (MCP) Server.
 
 ---
 
-## Hình thức tham gia và Thể lệ cuộc thi
+## Mục tiêu tham gia sự kiện
 
-Hoạt động thi đấu được thiết kế quy mô cho:
-- **8 đội thi**
-- **5 thành viên mỗi đội**
-
-Các thành viên trong một đội thi không nhất thiết phải thuộc cùng một nhóm dự án thực tập, giúp tăng cường giao lưu và kết nối giữa các sinh viên từ nhiều nhóm khác nhau.
-
-### Cơ chế kỹ năng đặc biệt trong trò chơi:
-
-Cuộc thi tích hợp 2 cơ chế kỹ năng đặc biệt giúp các đội tính toán chiến thuật ra quyết định:
-
-#### 1. Minimum Risk (Rủi ro tối thiểu)
-- Mỗi đội thi được quyền sử dụng kỹ năng này **01 lần** duy nhất trong suốt trận đấu.
-- Kỹ năng được sử dụng khi đội thi không chắc chắn về đáp án của câu hỏi.
-- **Nếu trả lời sai:** Đội thi **không bị trừ điểm**.
-- **Nếu trả lời đúng:** Đội thi chỉ nhận được **50% số điểm** của câu hỏi đó.
-
-#### 2. Hope Star (Ngôi sao hy vọng)
-- Mỗi đội thi được quyền sử dụng kỹ năng này **01 lần** duy nhất trong suốt trận đấu.
-- Kỹ năng được sử dụng khi đội thi cảm thấy rất tự tin về đáp án của câu hỏi.
-- **Nếu trả lời đúng:** Đội thi được **nhân đôi số điểm** của câu hỏi đó.
-- **Nếu trả lời sai:** Đội thi bị **trừ gấp đôi số điểm** tương ứng.
+Mục tiêu chính của em khi tham gia buổi sinh hoạt cộng đồng này là:
+- Tìm hiểu xem sự phát triển nhanh chóng của các công cụ lập trình AI đang tác động thế nào đến tương lai nghề nghiệp của kỹ sư phần mềm.
+- Khám phá các ứng dụng thực tế của AI trong các mảng chuyên sâu như FinOps (quản lý chi phí) và Cloud Security (bảo mật đám mây).
+- Nắm bắt các yêu cầu về hạ tầng và bài toán chi phí khi triển khai các giải pháp AI riêng tư (private AI) cho doanh nghiệp.
+- Giao lưu, kết nối với các chuyên gia trong ngành và định hướng lộ trình học tập thực tập sát với nhu cầu thực tế của thị trường.
 
 ---
 
-## Chia sẻ kinh nghiệm thi Chứng chỉ AWS (AWS Certification Sharing)
+## Nội dung chính
 
-Bên cạnh phần thi đấu kiến thức **Cloud Architect**, sự kiện còn tích hợp phiên chia sẻ chuyên sâu về kinh nghiệm thực tế khi ôn tập và thi các chứng chỉ AWS. 
+Các bài trình bày và thảo luận trong sự kiện xoay quanh ba chủ đề lớn:
 
-Qua phần chia sẻ của các anh/chị đi trước và thành viên cộng đồng, em đã học hỏi được:
-- Phương pháp lập lộ trình ôn tập các chứng chỉ AWS một cách hệ thống.
-- Kỹ năng chuẩn bị trước kỳ thi, phân bổ thời gian và chiến lược làm bài trắc nghiệm kiến trúc.
-- Tư duy tập trung hiểu bản chất dịch vụ và luồng dữ liệu thay vì học vẹt câu hỏi (dump questions).
-- Phương pháp kết hợp bài tập thực hành (hands-on labs) để ghi nhớ và củng cố lý thuyết.
-- Những góc nhìn thực tế và bài học kinh nghiệm từ các thành viên đã hoàn thành chứng chỉ AWS.
+### 1. Xu hướng nghề nghiệp trong kỷ nguyên Agentic AI
+Ngành công nghệ đang chứng kiến tốc độ ứng dụng AI nhanh chóng. Các tác tử AI (AI agents) và trợ lý lập trình đang cải thiện đáng kể năng suất. Nhờ vậy, nhiều công ty đang nâng cao tiêu chuẩn tuyển dụng đối với ứng viên. Tuy nhiên, khi hệ thống đám mây phát triển, việc quản lý hạ tầng ngày càng phức tạp, và bản thân AI không thể tự hiểu đầy đủ ngữ cảnh của mã nguồn, hạ tầng và logic nghiệp vụ trong các hệ thống doanh nghiệp lớn.
 
----
+### 2. Ứng dụng AI trong FinOps và Bảo mật đám mây
+- **FinOps:** Các đội ngũ tài chính thường thiếu kiến thức kỹ thuật về đám mây, trong khi kỹ sư lại không rành về quản lý chi phí tài chính. AI giải quyết khoảng trống này bằng cách phân tích dữ liệu hóa đơn AWS, phát hiện các mẫu chi tiêu bất thường và đưa ra chiến lược tối ưu hóa.
+- **Bảo mật đám mây:** Các vấn đề bảo mật đôi khi bị bỏ qua hoặc phát hiện quá muộn. Các AI Agents có thể tự động hóa nhiều tác vụ bảo mật như: đánh giá cấu hình Infrastructure as Code (IaC), hỗ trợ kiểm thử xâm nhập (penetration testing) và phân tích log hệ thống liên tục để phát hiện mối đe dọa.
 
-## Mục tiêu đạt được khi tham gia sự kiện
-
-- Củng cố và hệ thống hóa kiến thức nền tảng về AWS và Điện toán đám mây.
-- Nâng cao tư duy phân tích và thiết kế kiến trúc hệ thống đám mây.
-- Rèn luyện kỹ năng đọc hiểu, phân tích tình huống kiến trúc dưới áp lực thời gian.
-- Phát triển kỹ năng làm việc nhóm, trao đổi và thống nhất ý kiến khi ra quyết định.
-- Tiếp thu các kinh nghiệm thực tế quý báu cho quá trình chuẩn bị thi chứng chỉ AWS.
+### 3. Xem xét chi phí cho hạ tầng AI riêng biệt
+Khi triển khai các giải pháp AI cho doanh nghiệp (như Amazon Q Business hay MCP Server) bên trong mạng riêng ảo (VPC), các tổ chức phải tính đến chi phí hạ tầng để duy trì tính bảo mật. Một số chi phí hàng tháng ước tính bao gồm:
+- **Route 53 Resolver:** ~180$ (Phân giải DNS cho private endpoints)
+- **Application Load Balancer (ALB):** ~32$ (Định tuyến request)
+- **EC2 instances:** Tùy thuộc loại instance (Lưu trữ MCP Server)
+- **AWS Secrets Manager & Data Transfer:** Trả theo mức sử dụng
+Nhìn chung, chi phí hạ tầng cố định ước tính khoảng 250–350 USD/tháng, chưa bao gồm chi phí sử dụng model AI và xử lý dữ liệu.
 
 ---
 
-## Kiến thức thu nhận được (Knowledge Gained)
+## Kiến thức thu nhận được
 
-- **Phân tích trade-off kiến trúc:** Các câu hỏi kiến trúc đám mây luôn đòi hỏi sự đánh đổi (trade-off analysis) giữa bảo mật, hiệu năng và chi phí, thay vì chỉ chọn một dịch vụ đơn lẻ.
-- **Cân bằng các trụ cột kiến trúc:** Một thiết kế kiến trúc tốt phải đảm bảo hài hòa giữa Bảo mật (Security), Độ sẵn sàng (Availability), Khả năng mở rộng (Scalability), Độ tin cậy (Reliability) và Tối ưu chi phí (Cost).
-- **Góc nhìn đa chiều từ thảo luận nhóm:** Việc thảo luận đáp án cùng các thành viên trong đội giúp tiếp cận cùng một bài toán kiến trúc dưới nhiều góc nhìn khác nhau.
-- **Học kết hợp thực hành:** Lộ trình ôn thi chứng chỉ AWS hiệu quả nhất là kết hợp lý thuyết tài liệu chuẩn của AWS với các bài lab thực hành thực tế.
-- **Kỹ năng quản lý thời gian và ra quyết định:** Đánh giá rủi ro và ra quyết định chính xác dưới giới hạn thời gian là năng lực rất quan trọng trong thiết kế hệ thống.
+Qua việc tích cực tham gia các phiên thảo luận, em đã đúc kết được nhiều góc nhìn quan trọng:
+- **AI là cộng sự, không phải sự thay thế:** Các vai trò như Cloud Engineer, DevOps hay Solution Architect vẫn không thể thiếu vì đòi hỏi kinh nghiệm thực tiễn và khả năng ra quyết định kiến trúc. Thay vì lo lắng bị thay thế, kỹ sư nên học cách dùng AI để tự động hóa các tác vụ lặp đi lặp lại.
+- **Chi phí hạ tầng ẩn:** Nhiều dự án AI chỉ chú trọng vào giá API của LLM mà bỏ qua chi phí của các hạ tầng hỗ trợ mạng (VPC, Load Balancers, Secrets Manager).
+- **Hoạch định dung lượng là bắt buộc:** Chi phí hạ tầng phải được tính toán dựa trên lượng người dùng dự kiến và lưu lượng dữ liệu truyền tải trước khi đưa giải pháp vào môi trường sản xuất (Production).
 
 ---
 
-## Ứng dụng vào dự án Startups Blogs
+## Ứng dụng vào dự án thực tập
 
-Những bài học từ sự kiện Cloud Architect đã được áp dụng trực tiếp vào quá trình phát triển dự án thực tập **Startups Blogs**:
-
-- **Tư duy hệ thống tổng thể:** Nhìn nhận hạ tầng AWS của ứng dụng dưới dạng một hệ thống tổng thể gắn kết (API Gateway, EC2, RDS, Cognito, CloudFront, S3) thay vì các dịch vụ rời rạc.
-- **Xác định ranh giới bảo mật:** Phân định rõ ranh giới xác thực và phân quyền giữa các vai trò (`BUSINESS_OWNER`, `INVESTOR`, `ENTERPRISE_PARTNER`, `ADMIN`) trên Amazon Cognito.
-- **Cân bằng hiệu năng và chi phí:** Áp dụng nguyên lý trade-off khi lựa chọn mô hình EC2 Backend kết hợp RDS PostgreSQL trong private subnet và lưu trữ web tĩnh trên S3 CDN.
-- **Đánh giá dịch vụ AWS:** Đánh giá các giải pháp hạ tầng một cách bài bản trước khi triển khai vào dự án Startups Blogs.
+Những góc nhìn từ sự kiện FCAJ Community Day đã ảnh hưởng trực tiếp đến cách em tiếp cận hạ tầng của dự án **Startups Blogs**:
+- **Chủ động quản lý chi phí (Tư duy FinOps):** Em sẽ chú ý theo dõi bảng thanh toán AWS (billing dashboard) và tối ưu hóa tài nguyên cho hệ thống Startups Blogs, đảm bảo kiến trúc không chỉ chạy đúng mà còn tối ưu về mặt chi phí.
+- **Ưu tiên bảo mật:** Áp dụng tư duy bảo mật vào hệ thống bằng cách rà soát kỹ lưỡng các tệp cấu hình và phân quyền IAM, ngăn chặn các lỗ hổng trước khi triển khai lên môi trường Production.
+- **Sẵn sàng cho tương lai:** Việc hiểu rõ các thành phần hạ tầng cần thiết cho Private AI (VPC, ALB, Route 53) giúp em chuẩn bị sẵn sàng cho các kịch bản tương lai nếu dự án Startups Blogs cần tích hợp các AI agents một cách bảo mật.
 
 ---
 
 ## Hình ảnh
 
-![Hình 1. Toàn cảnh sự kiện Cloud Architect.](/images/events/cloud-architect-event-01.jpg)
-*Hình 1. Toàn cảnh sự kiện Cloud Architect.*
+![FCAJ Community Day](/images/events/event3.jpeg)
+<p align="center"><i>Hình: FCAJ Community Day</i></p>
+
+<p align="center"><em>Hình 1. Ảnh chụp tập thể tại sự kiện FCAJ Community Day - Tháng 6/2026.</em></p>
 
 ---
 
 ## Kết luận
 
-Sự kiện **Cloud Architect** là một trải nghiệm thực tế tuyệt vời, giúp em củng cố sâu sắc kiến thức kiến trúc Đám mây AWS, nâng cao kỹ năng làm việc nhóm và tiếp thu những kinh nghiệm ôn thi chứng chỉ AWS rất thực tế. Những tư duy về phân tích trade-off kiến trúc và cân bằng các trụ cột hệ thống đã hỗ trợ em rất nhiều trong quá trình thiết kế và hoàn thiện dự án thực tập Startups Blogs.
+Việc tham gia **FCAJ Community Day** là một trải nghiệm vô cùng bổ ích, giúp em mở rộng tầm nhìn về sự giao thoa giữa Điện toán đám mây và Trí tuệ nhân tạo. Sự kiện củng cố một thực tế rằng, dù công cụ AI đang thay đổi cách em viết code, thì những kỹ năng kỹ sư cốt lõi—thiết kế hệ thống, bảo mật và độ tin cậy vận hành—lại càng trở nên quan trọng hơn bao giờ hết. Những bài học về FinOps và hoạch định chi phí hạ tầng mang lại giá trị thực tế to lớn, hỗ trợ trực tiếp cho tư duy ra quyết định của em trong dự án Startups Blogs cũng như trên con đường phát triển sự nghiệp trở thành một Kỹ sư Đám mây.

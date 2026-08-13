@@ -1,155 +1,105 @@
 ---
-title: "Event 2 - Agentic AI Build Week"
-date: 2024-01-01
+title: "Event 2 - Cloud Architect"
+date: 2026-08-12
 weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Event 2 - FCAJ x Agentic AI Build Week: Show Up. Build. Pitch. WIN!
-
 ## Tổng quan sự kiện
 
-**FCAJ x Agentic AI Build Week: Show Up. Build. Pitch. WIN!** là phiên chia sẻ giải pháp và báo cáo kết quả cuộc thi Hackathon do cộng đồng **AWS First Cloud AI Journey (FCAJ)** phối hợp cùng quỹ đầu tư **JI Fund** tổ chức.
-
-Sự kiện quy tụ đông đảo các sinh viên, lập trình viên, kỹ sư điện toán đám mây và chuyên gia trí tuệ nhân tạo (AI). Tại sự kiện, các đội thi Hackathon đã trực tiếp trình diễn sản phẩm (demo), thuyết trình sơ đồ kiến trúc hệ thống, chia sẻ phương pháp triển khai thực tế và thảo luận về những thách thức khi xây dựng ứng dụng tích hợp Agentic AI.
-
-Mục tiêu tham dự sự kiện của em là tìm hiểu cách các đội thi phát triển sản phẩm AI trong giới hạn thời gian thực tế (khoảng 48 giờ), cũng như nghiên cứu quá trình chuyển đổi một bản thử nghiệm (Proof of Concept - PoC) thành một hệ thống sẵn sàng cho môi trường Production trên nền tảng AWS.
+**Cloud Architect** là một hoạt động sinh hoạt cộng đồng thuộc chương trình **AWS First Cloud AI Journey (FCAJ)**, được thiết kế dưới dạng trò chơi thi đấu kiến thức đồng đội về Điện toán đám mây và Thiết kế Kiến trúc Đám mây AWS. Sự kiện được tổ chức nhằm tạo ra một môi trường học tập tương tác, nâng cao tinh thần làm việc nhóm và chia sẻ tri thức thực tế giữa các sinh viên thực tập.
 
 ---
 
-## Mục tiêu đạt được khi tham gia
+## Mục tiêu tham gia sự kiện
 
-- Tìm hiểu khái niệm Agentic AI và các ứng dụng thực tế trong hệ thống phần mềm.
-- Nắm vững quy trình phát triển từ bản mẫu PoC sang giải pháp có khả năng mở rộng (Scalable Solution).
-- Học hỏi kinh nghiệm triển khai dự án thực tế từ các đội thi Hackathon.
-- Hiểu rõ các yếu tố kỹ thuật cần thiết khi đưa ứng dụng AI vào môi trường Production.
-- Quan sát cách kết hợp các dịch vụ Đám mây AWS trong một kiến trúc hệ thống AI hoàn chỉnh.
-
----
-
-## Danh sách diễn giả tiêu biểu
-
-- **Mr. Nguyễn Gia Hưng** – Head of Solution Architect, AWS Vietnam | Founder of AWS First Cloud AI Journey (FCAJ).
-- **Mr. Joseph Marazota** – Head of Technology, Amazon ASEAN.
-- Các đội thi xuất sắc tham gia Hackathon.
+Mục tiêu của em khi tham gia sự kiện này là để:
+- Củng cố và hệ thống hóa kiến thức nền tảng về AWS và Điện toán đám mây.
+- Nâng cao tư duy phân tích và thiết kế kiến trúc hệ thống đám mây.
+- Rèn luyện kỹ năng đọc hiểu, phân tích tình huống kiến trúc dưới áp lực thời gian.
+- Phát triển kỹ năng làm việc nhóm, trao đổi và thống nhất ý kiến khi ra quyết định.
+- Tiếp thu các kinh nghiệm thực tế quý báu cho quá trình chuẩn bị thi chứng chỉ AWS.
 
 ---
 
-## Nội dung chính của sự kiện
+## Nội dung chính
 
-Sự kiện tập trung chuyên sâu vào chủ đề **Agentic AI**. Khác với các ứng dụng Generative AI truyền thống chỉ phản hồi các câu lệnh prompt từ người dùng, một hệ thống Agentic AI có khả năng:
-- Lập kế hoạch thực hiện tác vụ (Task planning).
-- Tự động gọi và sử dụng các công cụ bên ngoài (Tool calling).
-- Thực hiện quy trình xử lý đa bước (Multi-step workflows).
-- Đánh giá kết quả trung gian để điều chỉnh hành vi.
-- Tương tác với các thành phần khác trong hệ thống phần mềm.
+Trong mỗi trận đấu, hai đội thi sẽ trực tiếp đối kháng với nhau thông qua việc trả lời chuỗi câu hỏi được sắp xếp theo cấp độ từ dễ đến khó. Đội giành được tổng số điểm cao hơn sau các lượt hỏi sẽ giành chiến thắng để tiến vào vòng tiếp theo. Trong trường hợp hai đội bằng điểm khi kết thúc lượt thi, một câu hỏi phụ (tie-breaking question) sẽ được sử dụng; đội nào đưa ra đáp án chính xác nhanh nhất sẽ là đội giành chiến thắng chung cuộc.
 
-Bên cạnh chức năng AI, các bài thi Hackathon còn được đánh giá dựa trên tiêu chí sẵn sàng cho môi trường Production:
-- **Guardrails**: Kiểm soát và giới hạn hành vi của mô hình AI.
-- **Role-Based Access Control (RBAC)**: Phân quyền truy cập dữ liệu nghiêm ngặt.
-- **Human-in-the-loop**: Sự tham gia của con người trong các bước quyết định quan trọng.
-- **Tối ưu hóa chi phí API (API Cost Optimization)**: Quản lý ngân sách gọi mô hình AI.
-- **Scalability, Security & Reliability**: Khả năng mở rộng, bảo mật và độ tin cậy hệ thống.
+Nội dung câu hỏi trong cuộc thi tập trung vào các chủ đề cốt lõi:
+- Kiến thức nền tảng về Điện toán đám mây (Cloud Computing fundamentals).
+- Các dịch vụ và giải pháp trên Amazon Web Services (AWS).
+- Nguyên lý thiết kế kiến trúc đám mây (Cloud Architecture).
+- Ra quyết định thiết kế kiến trúc hệ thống (Architecture design decisions).
+- Các trụ cột về Bảo mật (Security), Độ tin cậy (Reliability), Khả năng mở rộng (Scalability) và Tối ưu chi phí (Cost considerations).
 
-Các đội thi đã hoàn thiện sản phẩm trong khoảng thời gian **48 giờ** và có thời lượng thuyết trình giới thiệu bài toán, ý tưởng giải pháp, kiến trúc AWS, quá trình triển khai và demo sản phẩm trực tiếp.
+Hoạt động thi đấu được thiết kế quy mô cho:
+- **8 đội thi**
+- **5 thành viên mỗi đội**
 
----
+Các thành viên trong một đội thi không nhất thiết phải thuộc cùng một nhóm dự án thực tập, giúp tăng cường giao lưu và kết nối giữa các sinh viên từ nhiều nhóm khác nhau.
 
-## Trình bày giải pháp tiêu biểu của các đội thi
+### Cơ chế kỹ năng đặc biệt trong trò chơi
 
-### A. Agentic AI cho Hệ thống Đặt hàng Trực tuyến (Online Ordering)
+Cuộc thi tích hợp 2 cơ chế kỹ năng đặc biệt giúp các đội tính toán chiến thuật ra quyết định:
 
-- **Bài toán:** Các hệ thống đặt hàng trực tuyến truyền thống yêu cầu người dùng qua nhiều bước thủ công: tạo tài khoản, nhập thông tin thanh toán, duyệt menu và chọn món.
-- **Giải pháp PoC:** Xây dựng AI Agent hỗ trợ đặt hàng qua giao tiếp ngôn ngữ tự nhiên.
-- **Tính năng báo cáo:**
-  - Tự động thu thập dữ liệu thực đơn từ website chính thức.
-  - Lưu trữ dữ liệu liên quan trên hạ tầng AWS.
-  - Lưu lịch sử đơn hàng và sở thích của người dùng.
-  - Tự động tạo đơn hàng và thêm sản phẩm vào giỏ hàng qua luồng hội thoại.
-- **Ý nghĩa:** Minh họa cách AI Agent có thể thay mặt người dùng thực thi tác vụ thay vì chỉ trả về văn bản phản hồi.
+#### 1. Minimum Risk (Rủi ro tối thiểu)
+- Mỗi đội thi được quyền sử dụng kỹ năng này **01 lần** duy nhất trong suốt trận đấu.
+- Kỹ năng được sử dụng khi đội thi không chắc chắn về đáp án của câu hỏi.
+- **Nếu trả lời sai:** Đội thi **không bị trừ điểm**.
+- **Nếu trả lời đúng:** Đội thi chỉ nhận được **50% số điểm** của câu hỏi đó.
 
-![Hình 1. Kiến trúc AWS được trình bày bởi đội Agentic AI cho đặt món trực tuyến.](/images/events/agentic-ai-online-ordering-architecture.jpg)
-*Hình 1. Kiến trúc AWS được trình bày bởi đội Agentic AI cho đặt món trực tuyến.*
+#### 2. Hope Star (Ngôi sao hy vọng)
+- Mỗi đội thi được quyền sử dụng kỹ năng này **01 lần** duy nhất trong suốt trận đấu.
+- Kỹ năng được sử dụng khi đội thi cảm thấy rất tự tin về đáp án của câu hỏi.
+- **Nếu trả lời đúng:** Đội thi được **nhân đôi số điểm** của câu hỏi đó.
+- **Nếu trả lời sai:** Đội thi bị **trừ gấp đôi số điểm** tương ứng.
 
----
+### Chia sẻ kinh nghiệm thi Chứng chỉ AWS (AWS Certification Sharing)
 
-### B. Agentic AI cho Phân tích Dữ liệu (Data Analysis)
+Bên cạnh phần thi đấu kiến thức **Cloud Architect**, sự kiện còn tích hợp phiên chia sẻ chuyên sâu về kinh nghiệm thực tế khi ôn tập và thi các chứng chỉ AWS. 
 
-- **Bài toán:** Chuyên viên phân tích dữ liệu (Data Analysts) tốn nhiều thời gian cho các báo cáo định kỳ và công việc phân tích lặp đi lặp lại.
-- **Giải pháp PoC:**
-  - Tiếp nhận yêu cầu phân tích dữ liệu qua câu lệnh.
-  - Tự động tạo báo cáo phân tích ban đầu.
-  - Tích hợp **Agent Loop** giúp cải thiện kết quả dựa trên phản hồi của chuyên viên.
-  - Áp dụng **Guardrails** để kiểm tra và xác thực tính chính xác của dữ liệu trả về.
-- **Ý nghĩa:** Minh họa mô hình hợp tác hiệu quả giữa con người (Data Analyst) và AI Agent.
-
-![Hình 2. Kiến trúc AWS được trình bày bởi đội Agentic AI cho phân tích dữ liệu.](/images/events/agentic-ai-data-analysis-architecture.jpg)
-*Hình 2. Kiến trúc AWS được trình bày bởi đội Agentic AI cho phân tích dữ liệu.*
+Qua phần chia sẻ của các anh/chị đi trước và thành viên cộng đồng, em đã học hỏi được:
+- Phương pháp lập lộ trình ôn tập các chứng chỉ AWS một cách hệ thống.
+- Kỹ năng chuẩn bị trước kỳ thi, phân bổ thời gian và chiến lược làm bài trắc nghiệm kiến trúc.
+- Tư duy tập trung hiểu bản chất dịch vụ và luồng dữ liệu thay vì học vẹt câu hỏi (dump questions).
+- Phương pháp kết hợp bài tập thực hành (hands-on labs) để ghi nhớ và củng cố lý thuyết.
+- Những góc nhìn thực tế và bài học kinh nghiệm từ các thành viên đã hoàn thành chứng chỉ AWS.
 
 ---
 
-### C. Agentic AI cho Giám sát Lưu lượng Hành khách (Passenger Traffic Tracking)
+## Kiến thức thu nhận được
 
-- **Kiến trúc các dịch vụ AWS được đội thi sử dụng:**
-  Amazon Kinesis Video Streams, Amazon ECS, Amazon ECR, Amazon SageMaker Endpoints, Amazon S3, Amazon DynamoDB, Amazon CloudFront, Amazon API Gateway, AWS Lambda, AgentCore Runtime, Amazon Bedrock, Amazon Cognito, AWS IAM, AWS Secrets Manager, AWS CloudTrail, Amazon CloudWatch.
-- **Mô tả giải pháp:**
-  - Luồng video/hình ảnh được thu nhận vào hệ thống qua Amazon Kinesis Video Streams.
-  - Các thành phần xử lý (ECS/SageMaker) phân tích khung hình và trích xuất chỉ số lưu lượng hành khách.
-  - Dữ liệu và kết quả phân tích được lưu trữ an toàn trên S3 và DynamoDB.
-  - API Gateway và Lambda phục vụ dữ liệu cho ứng dụng Frontend qua CloudFront.
-  - Tích hợp dịch vụ bảo mật (Cognito, IAM, Secrets Manager) và giám sát (CloudWatch, CloudTrail).
-  - Thành phần Agentic AI (Bedrock / AgentCore) hỗ trợ truy vấn và phân tích thông minh trên dữ liệu lưu lượng đã xử lý.
-
-*(Lưu ý: Sơ đồ kiến trúc trên thuộc bài trình bày của đội thi Hackathon tại sự kiện, không phải kiến trúc của dự án Startups Blogs).*
-
-![Hình 3. Kiến trúc AWS được trình bày bởi đội theo dõi lưu lượng hành khách.](/images/events/agentic-ai-traffic-tracking-architecture.jpg)
-*Hình 3. Kiến trúc AWS được trình bày bởi đội theo dõi lưu lượng hành khách.*
+Qua cuộc thi và các phiên chia sẻ, em đã rút ra được nhiều bài học giá trị:
+- **Phân tích trade-off kiến trúc:** Các câu hỏi kiến trúc đám mây luôn đòi hỏi sự đánh đổi (trade-off analysis) giữa bảo mật, hiệu năng và chi phí, thay vì chỉ chọn một dịch vụ đơn lẻ.
+- **Cân bằng các trụ cột kiến trúc:** Một thiết kế kiến trúc tốt phải đảm bảo hài hòa giữa Bảo mật (Security), Độ sẵn sàng (Availability), Khả năng mở rộng (Scalability), Độ tin cậy (Reliability) và Tối ưu chi phí (Cost).
+- **Góc nhìn đa chiều từ thảo luận nhóm:** Việc thảo luận đáp án cùng các thành viên trong đội giúp tiếp cận cùng một bài toán kiến trúc dưới nhiều góc nhìn khác nhau.
+- **Học kết hợp thực hành:** Lộ trình ôn thi chứng chỉ AWS hiệu quả nhất là kết hợp lý thuyết tài liệu chuẩn của AWS với các bài lab thực hành thực tế.
+- **Kỹ năng quản lý thời gian và ra quyết định:** Đánh giá rủi ro và ra quyết định chính xác dưới giới hạn thời gian là năng lực rất quan trọng trong thiết kế hệ thống.
 
 ---
 
-## Kiến thức thu nhận được (Knowledge Gained)
+## Ứng dụng vào dự án thực tập
 
-- **Bản chất của Agentic AI:** Một AI Agent hiệu quả cần bao gồm lập kế hoạch, thực thi, sử dụng công cụ và đánh giá kết quả, thay vì chỉ dựa vào một câu prompt đơn lẻ.
-- **Tầm quan trọng của Guardrails:** Cần thiết lập cơ chế kiểm soát (Guardrails) để đảm bảo mô hình AI hoạt động đúng phạm vi và an toàn.
-- **Khoảng cách giữa PoC và Production:** Hệ thống PoC và Production khác biệt rất lớn về tiêu chuẩn bảo mật, khả năng mở rộng, độ tin cậy, giám sát (observability) và chi phí vận hành.
-- **Giải quyết bài toán người dùng thực:** Công nghệ AI chỉ thực sự có giá trị khi giúp đơn giản hóa quy trình công việc thực tế của người dùng.
-- **Tích hợp dịch vụ Đám mây AWS:** Cách kết hợp linh hoạt các dịch vụ AWS để tạo nên một kiến trúc AI end-to-end hoàn chỉnh.
+Những bài học từ sự kiện Cloud Architect đã được em áp dụng trực tiếp vào quá trình phát triển dự án thực tập **Startups Blogs**:
 
----
-
-## Ứng dụng tiềm năng vào dự án Startups Blogs (Future Possibilities)
-
-*(Lưu ý: Đây là những định hướng nghiên cứu và khả năng mở rộng trong tương lai dựa trên bài học từ sự kiện. Hệ thống Startups Blogs hiện tại không triển khai Agentic AI, Amazon Bedrock hay SageMaker).*
-
-- **Tìm kiếm thông minh:** Nghiên cứu khả năng hỗ trợ nhà đầu tư tìm kiếm các cơ hội gọi vốn qua truy vấn ngôn ngữ tự nhiên.
-- **Hỗ trợ tạo nội dung:** Định hướng tính năng gợi ý cấu trúc mô tả doanh nghiệp và bài viết gọi vốn cho các Business Owner.
-- **Tóm tắt thông tin công khai:** Hỗ trợ nhà đầu tư tóm tắt các thông tin doanh nghiệp và cơ hội đầu tư công khai trên nền tảng.
-- **Hỗ trợ kiểm duyệt nội dung:** Nghiên cứu công cụ hỗ trợ Admin rà soát và kiểm duyệt bài viết tự động.
-- **Áp dụng Guardrails & RBAC:** Đảm bảo tính năng AI trong tương lai tuân thủ phân quyền chặt chẽ, không truy cập trái phép vào dữ liệu riêng tư của nhà đầu tư hoặc doanh nghiệp.
+- **Tư duy hệ thống tổng thể:** Nhìn nhận hạ tầng AWS của ứng dụng dưới dạng một hệ thống tổng thể gắn kết (API Gateway, EC2, RDS, Cognito, CloudFront, S3) thay vì các dịch vụ rời rạc.
+- **Xác định ranh giới bảo mật:** Phân định rõ ranh giới xác thực và phân quyền giữa các vai trò (`BUSINESS_OWNER`, `INVESTOR`, `ENTERPRISE_PARTNER`, `ADMIN`) trên Amazon Cognito.
+- **Cân bằng hiệu năng và chi phí:** Áp dụng nguyên lý trade-off khi lựa chọn mô hình EC2 Backend kết hợp RDS PostgreSQL trong private subnet và lưu trữ web tĩnh trên S3 CDN.
+- **Đánh giá dịch vụ AWS:** Đánh giá các giải pháp hạ tầng một cách bài bản trước khi triển khai vào dự án Startups Blogs.
 
 ---
 
-## Trải nghiệm cá nhân (Personal Experience)
+## Hình ảnh
 
-Đây là lần đầu tiên em có cơ hội tham sát một sự kiện Hackathon quy mô lớn tập trung vào chủ đề **Agentic AI**. Em rất ấn tượng không chỉ bởi các phần demo sản phẩm sáng tạo của các đội thi mà còn bởi những thảo luận sâu sắc về bài toán đưa AI vào môi trường Production.
+![Hình 1. Toàn cảnh sự kiện Cloud Architect.](/images/events/cloud-architect-event-01.jpg)
+<p align="center"><i>Hình: Hình 1. Toàn cảnh sự kiện Cloud Architect.</i></p>
 
-Sự kiện đã giúp em nhận ra rằng việc phát triển một ứng dụng AI đòi hỏi nhiều hơn là chỉ chọn một mô hình ngôn ngữ lớn (LLM); các yếu tố bảo mật, phân quyền, độ tin cậy, giám sát và tối ưu chi phí mới là chìa khóa quyết định sự thành bại của sản phẩm. Việc giao lưu cùng các bạn sinh viên, kỹ sư phần mềm và các chuyên gia AWS tại sự kiện đã mang lại cho em nhiều góc nhìn kỹ thuật và định hướng nghề nghiệp quý báu.
-
----
-
-## Bài học rút ra (Lessons Learned)
-
-- Luôn xuất phát từ bài toán thực tế của người dùng trước khi lựa chọn công nghệ.
-- Đảm bảo sự cân bằng giữa tính năng, độ chính xác, an toàn bảo mật và chi phí vận hành.
-- Thiết kế cơ chế phân quyền (RBAC) và bảo vệ dữ liệu ngay từ đầu khi ứng dụng AI truy cập dữ liệu hệ thống.
-- Phân biệt rõ ràng tiêu chuẩn giữa một bản thiết kế PoC và một kiến trúc Production.
-- Tham gia các cộng đồng công nghệ và sự kiện Hackathon là phương pháp học hỏi thực tế rất hiệu quả.
-
-<!-- Event 2 personal photos will be added later. -->
+<p align="center"><em>Hình 1. Toàn cảnh sự kiện Cloud Architect.</em></p>
 
 ---
 
 ## Kết luận
 
-Sự kiện **FCAJ x Agentic AI Build Week** đã mang lại những góc nhìn công nghệ rất hiện đại về Agentic AI và kiến trúc hệ thống Đám mây AWS. Những bài học về sự khác biệt giữa PoC và Production, việc áp dụng Guardrails, phân quyền RBAC và quản lý chi phí sẽ là nền tảng kiến thức quý báu cho em trong hành trình phát triển phần mềm và xây dựng các hệ thống scalable trong tương lai.
+Sự kiện **Cloud Architect** là một trải nghiệm thực tế tuyệt vời, giúp em củng cố sâu sắc kiến thức kiến trúc Đám mây AWS, nâng cao kỹ năng làm việc nhóm và tiếp thu những kinh nghiệm ôn thi chứng chỉ AWS rất thực tế. Những tư duy về phân tích trade-off kiến trúc và cân bằng các trụ cột hệ thống đã hỗ trợ em rất nhiều trong quá trình thiết kế và hoàn thiện dự án thực tập Startups Blogs.

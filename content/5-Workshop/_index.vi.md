@@ -1,6 +1,6 @@
 ---
 title: "Workshop"
-date: 2024-01-01
+date: 2026-08-01
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
@@ -26,8 +26,9 @@ Hệ thống kết hợp kiến trúc Full-Stack bao gồm **React 19 (TypeScrip
 
 1. [Tổng quan về Workshop & Kiến trúc AWS Enterprise](5.1-Workshop-overview/)
 2. [Chuẩn bị môi trường, Terraform & Cơ sở dữ liệu PostgreSQL](5.2-Prerequiste/)
-3. [Cấu hình Amazon Cognito User Pool & Confidential App Client](5.3-Cognito-setup/)
-4. [Tích hợp Backend NestJS, REST APIs & HttpOnly Cookie Session](5.4-Backend-integration/)
-5. [Tích hợp Frontend React 19, Zustand State & Admin Dashboard](5.5-Frontend-integration/)
-6. [Tự động hóa Hạ tầng bằng Terraform & Giám sát CloudWatch](5.6-Security-review/)
-7. [Dọn dẹp tài nguyên & Tổng kết](5.7-Cleanup/)
+3. [Cấu hình Hạ tầng AWS — VPC, RDS, EC2, S3, CloudFront & API Gateway](5.3-AWS-Infrastructure/)
+4. [Cấu hình Amazon Cognito User Pool & Confidential App Client](5.4-Cognito-setup/)
+5. [Tích hợp Backend NestJS, REST APIs & HttpOnly Cookie Session](5.5-Backend-integration/)
+6. [Tích hợp Frontend React 19, Zustand State & Admin Dashboard](5.6-Frontend-integration/)
+7. [Tự động hóa Hạ tầng bằng Terraform & Giám sát CloudWatch](5.7-Security-review/)
+8. [Dọn dẹp tài nguyên & Tổng kết](5.8-Cleanup/)

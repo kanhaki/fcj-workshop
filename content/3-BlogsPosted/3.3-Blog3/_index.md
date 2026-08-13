@@ -1,6 +1,6 @@
 ---
 title: "Blog 3 - Managing Cognito Sessions with HttpOnly Cookies and RBAC"
-date: 2024-01-01
+date: 2026-07-25
 weight: 3
 chapter: false
 pre: " <b> 3.3. </b> "
@@ -8,6 +8,8 @@ pre: " <b> 3.3. </b> "
 
 # MANAGING AMAZON COGNITO SESSIONS WITH HTTPONLY COOKIES, REFRESH TOKENS, AND ROLE-BASED ACCESS CONTROL
 ## Enterprise Session Management and Role-Based Authorization (`us-east-1`)
+
+![Session Management & RBAC](/images/3-Blogs/blog-3.jpg)
 
 ### 1. Introduction
 Following successful user credential authentication with **Amazon Cognito**, the next consideration is: *How to maintain and manage user sessions securely?*
@@ -108,3 +110,13 @@ The `/raise-capital` route renders an 8-step wizard protected at both Frontend a
 
 ### 5. Conclusion
 Combining **HttpOnly Signed Cookies** with Amazon Cognito (`us-east-1`) **Refresh Token flows** and **PostgreSQL RBAC** achieves an optimal balance between **User Experience** and **Enterprise Security**.
+
+---
+
+### 💬 Discussion
+
+How do you usually handle the logic of automatically calling a Refresh Token silently on the frontend to optimize UX without interrupting ongoing API calls? Let's discuss technical approaches in the comments!
+
+👉 **[Join the discussion on the Facebook post here](https://www.facebook.com/groups/awsstudygroupfcj/posts/2243690619729231/)**
+
+*#AWS #AmazonCognito #ReactJS #NestJS #WebSecurity #SessionManagement #RBAC #FrontendDev #WebDevelopment*

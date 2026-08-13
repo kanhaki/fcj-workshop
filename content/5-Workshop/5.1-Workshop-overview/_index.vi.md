@@ -1,6 +1,6 @@
 ---
 title: "Tổng quan Workshop"
-date: 2024-01-01
+date: 2026-08-01
 weight: 1
 chapter: false
 pre: " <b> 5.1. </b> "
@@ -8,21 +8,13 @@ pre: " <b> 5.1. </b> "
 
 ### Tổng quan bài lab & Kiến trúc Đám mây AWS Enterprise
 
-Trong bài hướng dẫn này, chúng ta sẽ tìm hiểu kiến trúc tổng thể của hệ thống **Startups Blogs** và luồng xác thực đám mây bằng **Amazon Cognito (`us-east-1`)**.
+Trong bài hướng dẫn này, chúng em sẽ tìm hiểu kiến trúc tổng thể của hệ thống **Startups Blogs** và luồng xác thực đám mây bằng **Amazon Cognito (`us-east-1`)**.
 
 #### 1. Sơ đồ Kiến trúc AWS Enterprise
 Hệ thống được thiết kế theo chuẩn Enterprise Microservices & Serverless kết hợp, tách biệt hoàn toàn giữa Frontend, Backend, Database và Hệ thống Xác thực. Toàn bộ hạ tầng được tự động hóa bằng **Terraform** (Infrastructure as Code).
 
-```mermaid
-graph TD
-    User([User Browser]) <-->|CloudFront CDN| S3_FE[Amazon S3 Frontend Hosting us-east-1]
-    User <-->|HTTPS / REST API| APIGW[Amazon API Gateway]
-    APIGW <-->|Forward Traffic| EC2[Amazon EC2 Backend NestJS + PM2]
-    EC2 <-->|Prisma ORM / Port 5432| RDS[(Amazon RDS PostgreSQL Private Subnet)]
-    EC2 <-->|aws-sdk & aws-jwt-verify| Cognito[Amazon Cognito User Pool us-east-1]
-    EC2 <-->|S3 SDK / Image Upload| S3_Storage[Amazon S3 Media Bucket]
-    EC2 <-->|Logs & Metrics| CloudWatch[Amazon CloudWatch Monitoring]
-```
+![Sơ đồ kiến trúc hệ thống Startups Blogs](/images/5-Workshop/5.1-Workshop-overview/AWS%20Architect.drawio.png)
+<p align="center"><i>Hình: Sơ đồ kiến trúc hệ thống Startups Blogs</i></p>
 
 #### 2. Phân định rõ các vai trò và phạm vi đăng ký
 Hệ thống quản lý 4 vai trò người dùng chính (`UserRole`):
@@ -47,6 +39,19 @@ Hệ thống quản lý 4 vai trò người dùng chính (`UserRole`):
   - Tối ưu hóa luồng phê duyệt gọi vốn đa tầng.
   - Mở rộng bộ kiểm thử tự động E2E.
 
-> Screenshot required:
-> Sơ đồ tổng quan kiến trúc hệ thống Startups Blogs Enterprise AWS Architecture.
-> Hide AWS account identifiers and sensitive values before capturing.
+#### 4. Giao diện ứng dụng Startups Blogs
+
+Dưới đây là một số hình ảnh thực tế về giao diện của ứng dụng web Startups Blogs sau khi triển khai thành công:
+
+**Trang chủ (Phần Đầu):** Giao diện Header trực quan, hiển thị các tính năng cốt lõi và thanh điều hướng chính của nền tảng.
+![Giao diện Header Trang chủ](/images/5-Workshop/5.1-Workshop-overview/home-page%20(1).png)
+<p align="center"><i>Hình: Giao diện Header Trang chủ</i></p>
+
+**Trang chủ (Phần Nội dung):** Danh sách các Startups, cơ hội đầu tư nổi bật và các bài viết mới nhất được tải từ Backend thông qua API.
+![Giao diện Nội dung Trang chủ](/images/5-Workshop/5.1-Workshop-overview/home-page%20(2).png)
+<p align="center"><i>Hình: Giao diện Nội dung Trang chủ</i></p>
+
+**Sơ đồ Thực thể Liên kết (ERD):** Sơ đồ mô tả cấu trúc cơ sở dữ liệu PostgreSQL của hệ thống, bao gồm các bảng `users`, `businesses`, `articles` và các mối quan hệ (owns, writes, v.v.).
+![Sơ đồ Thực thể Liên kết (ERD)](/images/5-Workshop/5.1-Workshop-overview/Business%20Funding-2026-08-13-081827.png)
+<p align="center"><i>Hình: Sơ đồ Thực thể Liên kết (ERD) của hệ thống</i></p>
+

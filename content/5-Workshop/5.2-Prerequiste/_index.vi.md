@@ -1,6 +1,6 @@
 ---
 title: "Chuẩn bị môi trường"
-date: 2024-01-01
+date: 2026-08-01
 weight: 2
 chapter: false
 pre: " <b> 5.2. </b> "
@@ -18,24 +18,38 @@ Trước khi thực hiện các bước cấu hình Amazon Cognito và hạ tầ
 - **PostgreSQL Database**: Đã khởi chạy locally qua Docker (`docker-compose.yml` tại cổng `5433`) hoặc dịch vụ Amazon RDS PostgreSQL.
 - **Docker**: Khởi chạy container PostgreSQL và MinIO S3 simulation.
 
-#### 2. Cấu hình cơ sở dữ liệu với Prisma ORM
-Mô hình dữ liệu của Startups Blogs được định nghĩa chi tiết trong `backend/prisma/schema.prisma`. 
+#### 2. Khởi chạy Container Local (PostgreSQL & MinIO)
+Chạy lệnh sau tại thư mục gốc của dự án để khởi động cơ sở dữ liệu và kho lưu trữ S3 giả lập ở dưới máy local.
+```bash
+docker-compose up -d
+```
+![Khởi chạy Docker Compose](/images/5-Workshop/5.2-Prerequiste/docker-compose.png)
+<p align="center"><i>Hình: Khởi chạy Docker Compose</i></p>
 
-Khởi tạo và đồng bộ cơ sở dữ liệu bằng lệnh:
+#### 3. Xác thực AWS CLI
+Kiểm tra xem AWS CLI của bạn đã được xác thực thành công và trỏ đúng vào region `us-east-1` chưa.
+```bash
+aws sts get-caller-identity
+```
+
+#### 4. Cấu hình cơ sở dữ liệu với Prisma ORM
+Mô hình dữ liệu của Startups Blogs được định nghĩa chi tiết trong `backend/prisma/schema.prisma`. Khởi tạo và đồng bộ cơ sở dữ liệu bằng lệnh:
 
 ```bash
 cd backend
 npx prisma generate
 npx prisma db push
 ```
+![Khởi tạo Database Prisma](/images/5-Workshop/5.2-Prerequiste/prisma-push.png)
+<p align="center"><i>Hình: Khởi tạo Database Prisma</i></p>
 
-#### 3. Khởi tạo dữ liệu mẫu (Seed Data)
+#### 5. Khởi tạo dữ liệu mẫu (Seed Data)
+
 Đăng ký dữ liệu mẫu cho danh mục ngành nghề (Industries), loại hình doanh nghiệp, giai đoạn phát triển, bài viết mẫu và tài khoản thử nghiệm:
 
 ```bash
 npx prisma db seed
 ```
+![Dữ liệu mẫu Prisma](/images/5-Workshop/5.2-Prerequiste/prisma-seed.png)
+<p align="center"><i>Hình: Dữ liệu mẫu Prisma</i></p>
 
-> Screenshot required:
-> Kết quả lệnh `npx prisma db push` và cơ sở dữ liệu PostgreSQL đã được khởi tạo các bảng `users`, `businesses`, `funding_opportunities`, `articles`, `change_proposals`.
-> Hide AWS account identifiers and sensitive values before capturing.

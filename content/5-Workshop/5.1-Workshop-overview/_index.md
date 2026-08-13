@@ -1,6 +1,6 @@
 ---
 title: "Workshop Overview"
-date: 2024-01-01
+date: 2026-08-01
 weight: 1
 chapter: false
 pre: " <b> 5.1. </b> "
@@ -13,16 +13,7 @@ In this section, we cover the overall architecture of **Startups Blogs** and the
 #### 1. Enterprise AWS Architecture Diagram
 The system is built according to Enterprise Microservices & Serverless best practices, isolating Frontend, Backend, Database, and Identity Management. 100% of the infrastructure is automated via **Terraform** (Infrastructure as Code).
 
-```mermaid
-graph TD
-    User([User Browser]) <-->|CloudFront CDN| S3_FE[Amazon S3 Frontend Hosting us-east-1]
-    User <-->|HTTPS / REST API| APIGW[Amazon API Gateway]
-    APIGW <-->|Forward Traffic| EC2[Amazon EC2 Backend NestJS + PM2]
-    EC2 <-->|Prisma ORM / Port 5432| RDS[(Amazon RDS PostgreSQL Private Subnet)]
-    EC2 <-->|aws-sdk & aws-jwt-verify| Cognito[Amazon Cognito User Pool us-east-1]
-    EC2 <-->|S3 SDK / Image Upload| S3_Storage[Amazon S3 Media Bucket]
-    EC2 <-->|Logs & Metrics| CloudWatch[Amazon CloudWatch Monitoring]
-```
+![Startups Blogs System Architecture](/images/5-Workshop/5.1-Workshop-overview/AWS%20Architect.drawio.png)
 
 #### 2. User Roles & Registration Boundary
 The system defines 4 major roles (`UserRole`):
@@ -47,6 +38,15 @@ The system defines 4 major roles (`UserRole`):
   - Advanced multi-tier funding approval workflow.
   - Expanded automated E2E test coverage.
 
-> Screenshot required:
-> Startups Blogs System Architecture and Cognito Auth Flow Diagram.
-> Hide AWS account identifiers and sensitive values before capturing.
+#### 4. Startups Blogs Web Interface
+
+Below are some actual screenshots of the Startups Blogs web application after successful deployment:
+
+**Home Page (Header):** An intuitive header interface displaying core features and main navigation.
+![Home Page Header](/images/5-Workshop/5.1-Workshop-overview/home-page%20(1).png)
+
+**Home Page (Content):** A list of highlighted startups, investment opportunities, and latest articles fetched from the Backend API.
+![Home Page Content](/images/5-Workshop/5.1-Workshop-overview/home-page%20(2).png)
+
+**Entity Relationship Diagram (ERD):** The database schema diagram detailing the PostgreSQL tables (`users`, `businesses`, `articles`) and their relationships (owns, writes, etc.).
+![Entity Relationship Diagram (ERD)](/images/5-Workshop/5.1-Workshop-overview/Business%20Funding-2026-08-13-081827.png)

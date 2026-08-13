@@ -1,17 +1,17 @@
 ---
 title: "Báo cáo thực tập"
-date: 2024-01-01
+date: 2026-08-12
 weight: 1
 chapter: false
 ---
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Trần Tuấn Khanh
+&emsp; **Họ và tên:** Hà Kim Khang
 
-&emsp; **Số điện thoại:** 0825358779
+&emsp; **Số điện thoại:** 0768950148
 
-&emsp; **Email:** khanhtrantuan12a621@gmail.com
+&emsp; **Email:** khanghakim12l421@gmail.com
 
 &emsp; **Trường Đại học:** Đại học Sài Gòn
 
@@ -26,7 +26,7 @@ chapter: false
 &emsp; **Thời gian thực tập:** Từ ngày 22/06/2026 đến ngày 15/08/2026
 
 <p align="center">
-  <img src="/images/profile/khanh-avatar.jpg" alt="Ảnh cá nhân" style="max-width: 400px; width: 100%; height: auto; border-radius: 8px; margin: 15px 0;">
+  <img src="/images/profile/khang-avatar.png" alt="Ảnh cá nhân" style="max-width: 400px; width: 100%; height: auto; border-radius: 8px; margin: 15px 0;">
 </p>
 <p align="center"><em>Ảnh cá nhân</em></p>
 
