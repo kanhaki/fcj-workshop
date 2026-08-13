@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: Build website
-        run: hugo --minify --baseURL "https://khanhcrs.github.io/fcj-workshop/"
+        run: hugo --minify --baseURL "https://kanhaki.github.io/fcj-workshop/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
