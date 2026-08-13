@@ -43,7 +43,7 @@
           <a class="padding">
             <i class="fas fa-language fa-fw"></i>
             <div class="select-style">
-              <select id="select-language" onchange="location = this.value;">
+              <select id="select-language" onchange="(function(val){ var prefix='/fcj-workshop'; if(val.startsWith('/') && !val.startsWith(prefix) && window.location.pathname.startsWith(prefix+'/')) { val = prefix + val; } location = val; })(this.value);">
                 {{ $pageLang := .Lang }}
                 {{ range .AllTranslations }}
                 <option
