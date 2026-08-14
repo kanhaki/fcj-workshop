@@ -7,24 +7,35 @@ pre: " <b> 1.6. </b> "
 ---
 ### Mục tiêu tuần 6:
 
-- Cập nhật nội dung các bài lab cấu hình CI/CD tích hợp vào file tài liệu Workshop.
-- Hoàn thiện các hướng dẫn triển khai cho dự án Startups Blogs Workshop.
-- Biên soạn bài lab tự động hóa hạ tầng bằng Terraform (IaC) và các bước kiểm thử.
-- Đảm bảo toàn bộ tài liệu bám sát quy trình làm việc thực tế của nhóm.
+- Viết hoàn thiện báo cáo Workshop: Cấu hình Amazon Cognito
+- Test lại project nhóm (luồng đăng nhập), tránh lỗi phát sinh
+- Bổ sung tài liệu Workshop: 5.2.2 Chuẩn bị tài khoản AWS
+- Tối ưu hóa kiến trúc AWS (Enterprise state), tích hợp CloudWatch
+- Chuẩn hóa các thông báo lỗi bảo mật xác thực
+- Viết hoàn thiện báo cáo Workshop phần AWS Architecture & Monitoring
+- Rà soát nội dung báo cáo và chỉnh sửa các lỗi
+- Tiến hành deploy GitHub Pages Workshop cá nhân
+- Kiểm thử lại website project
 
 ### Công việc thực hiện trong tuần:
 | Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Tài liệu tham khảo |
 | --- | --- | --- | --- | --- |
-| 1 | - Tiếp nhận thông tin cấu hình CI/CD Pipeline từ thành viên nhóm (Kiệt) <br> - Lên dàn ý bài lab hướng dẫn tự động hóa kiểm thử và triển khai | 27/07/2026 | 27/07/2026 | |
-| 2 | - Biên soạn bài lab tự động hóa CI/CD với GitHub Actions <br> - Viết hướng dẫn thiết lập workflow kiểm tra mã nguồn cho cả Frontend và Backend | 28/07/2026 | 28/07/2026 | <https://docs.github.com/en/actions> |
-| 3 | - Bổ sung tài liệu hướng dẫn tích hợp hạ tầng Đám mây AWS (EC2, RDS, VPC) <br> - Trình bày luồng kết nối và bảo mật giữa các thành phần hạ tầng | 29/07/2026 | 29/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - Cập nhật nội dung bài lab Tự động hóa Hạ tầng bằng Terraform (`5.6-Security-review`) <br> - Viết chi tiết các lệnh `terraform init`, `plan`, `apply` và kiểm soát an toàn | 30/07/2026 | 30/07/2026 | <https://registry.terraform.io/> |
-| 5 | - Biên soạn bài lab Dọn dẹp tài nguyên (`5.7-Cleanup`) với lệnh `terraform destroy` <br> - Phối hợp rà soát lần cuối toàn bộ tài liệu Workshop bám sát quy trình dự án | 31/07/2026 | 31/07/2026 | |
+| 1 | - Viết hoàn thiện báo cáo Workshop: Cấu hình Amazon Cognito<br>- Bổ sung tài liệu Workshop: 5.2.2 Chuẩn bị tài khoản AWS | 27/07/2026 | 27/07/2026 | |
+| 2 | - Test lại project nhóm (luồng đăng nhập), tránh lỗi phát sinh<br>- Chuẩn hóa các thông báo lỗi bảo mật xác thực | 28/07/2026 | 28/07/2026 | <https://docs.github.com/en/actions> |
+| 3 | - Tối ưu hóa kiến trúc AWS (Enterprise state), tích hợp CloudWatch | 29/07/2026 | 29/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Viết hoàn thiện báo cáo Workshop phần AWS Architecture & Monitoring<br>- Rà soát nội dung báo cáo và chỉnh sửa các lỗi | 30/07/2026 | 30/07/2026 | <https://registry.terraform.io/> |
+| 5 | - Tiến hành deploy GitHub Pages Workshop cá nhân<br>- Kiểm thử lại website project | 31/07/2026 | 31/07/2026 | |
 
 
 ### Kết quả đạt được tuần 6:
 
-- Biên soạn thành công các bài lab hướng dẫn CI/CD Pipeline với GitHub Actions.
-- Hoàn thiện bộ tài liệu hướng dẫn tự động hóa hạ tầng bằng Terraform (IaC).
-- Xây dựng bài lab dọn dẹp tài nguyên AWS (Cleanup) giúp quản lý chi phí an toàn.
-- Đảm bảo toàn bộ tài liệu Workshop bám sát và phản ánh đúng quy trình thực tế của dự án.
+- Viết hoàn thiện báo cáo Workshop: Cấu hình Amazon Cognito
+- Test lại project nhóm (luồng đăng nhập), tránh lỗi phát sinh
+- Bổ sung tài liệu Workshop: 5.2.2 Chuẩn bị tài khoản AWS
+- Tối ưu hóa kiến trúc AWS (Enterprise state), tích hợp CloudWatch
+- Chuẩn hóa các thông báo lỗi bảo mật xác thực
+- Viết hoàn thiện báo cáo Workshop phần AWS Architecture & Monitoring
+- Rà soát nội dung báo cáo và chỉnh sửa các lỗi
+- Tiến hành deploy GitHub Pages Workshop cá nhân
+- Kiểm thử lại website project
+
