@@ -46,18 +46,6 @@ Dự án hiện đã hoàn thiện kiến trúc Full-Stack Enterprise với **Re
 
 ### 4. Kiến trúc giải pháp (Solution Architecture)
 
-```mermaid
-graph TD
-    Client[Browser / React 19 Frontend] <-->|CDN / Cache| CloudFront[Amazon CloudFront CDN us-east-1]
-    CloudFront <-->|Static Files| S3_FE[Amazon S3 Frontend Hosting]
-    Client <-->|HTTPS / REST API / HttpOnly Cookies| APIGW[Amazon API Gateway]
-    APIGW <-->|Forward Traffic| EC2[Amazon EC2 Backend NestJS + PM2]
-    EC2 <-->|Prisma ORM / Port 5432| RDS[(Amazon RDS PostgreSQL Private Subnet)]
-    EC2 <-->|aws-sdk & aws-jwt-verify| Cognito[Amazon Cognito User Pool us-east-1]
-    EC2 <-->|S3 SDK / Presigned Upload| S3_Storage[Amazon S3 Media Bucket]
-    EC2 <-->|Logs & Metrics| CloudWatch[Amazon CloudWatch Monitoring]
-```
-
 ![Kiến trúc giải pháp AWS](/images/2-Proposal/AWS%20Architect.drawio.png)
 
 #### Luồng xử lý dữ liệu & Bảo mật (End-to-End Flow)
