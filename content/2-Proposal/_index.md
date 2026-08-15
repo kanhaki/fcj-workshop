@@ -58,6 +58,8 @@ graph TD
     EC2 <-->|Logs & Metrics| CloudWatch[Amazon CloudWatch Monitoring]
 ```
 
+![AWS Solution Architecture](/images/2-Proposal/AWS%20Architect.drawio.png)
+
 #### End-to-End Data & Security Flow
 1. **Frontend Delivery**: Users navigate to the website; **Amazon CloudFront CDN** serves static React 19 files cached from the **S3 Frontend Bucket**.
 2. **Identity Authentication**: Upon login, NestJS calls **Amazon Cognito User Pool (`us-east-1`)** via `USER_PASSWORD_AUTH` with `SECRET_HASH` (HMAC-SHA256). Cognito issues JWT tokens stored securely in **HttpOnly Signed Cookies**.

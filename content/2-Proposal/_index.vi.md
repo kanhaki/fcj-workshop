@@ -58,6 +58,8 @@ graph TD
     EC2 <-->|Logs & Metrics| CloudWatch[Amazon CloudWatch Monitoring]
 ```
 
+![Kiến trúc giải pháp AWS](/images/2-Proposal/AWS%20Architect.drawio.png)
+
 #### Luồng xử lý dữ liệu & Bảo mật (End-to-End Flow)
 1. **Tải giao diện**: Người dùng truy cập trang web, **Amazon CloudFront CDN** trả về giao diện React 19 siêu tốc từ **S3 Frontend Bucket**.
 2. **Xác thực danh tính**: Người dùng đăng nhập, NestJS gọi **Amazon Cognito User Pool (`us-east-1`)** qua `USER_PASSWORD_AUTH` kèm `SECRET_HASH` (HMAC-SHA256). Cognito kiểm tra và cấp JWT Tokens được lưu an toàn trong **HttpOnly Signed Cookies**.
